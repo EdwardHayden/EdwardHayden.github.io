@@ -35,47 +35,61 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="Runeguard1.html">Runeguard 1</a></li>
-							<li><a href="Runeguard2.html">Runeguard 2</a></li>
-							<li><a href="InfernalLink.html">Infernal Link</a></li>
+							<li><a href="WayfarersGuild.html">Wayfarers Guild</a></li>
+							<li><a href="GoNorth.html">Go North</a></li>
 							<li><a href="RibbitRomance.html">Ribbit Romance: Vol VII</a></li>
 							<li><a href="UmbralCrypt.html">Umbral Crypt</a></li>
 							<li><a href="Ruinsanity.html">Ruinsanity</a></li>
 							<li><a href="Rainfall.html">Rainfall</a></li>
+							<li><a href="BubbleFish.html">Bubble Fish</a></li>
+							<li><a href="Runeguard2.html">Runeguard</a></li>
+							<li><a href="CursedCampus.html">Cursed Campus</a></li>
 							<li><a href="BardcoreRock.html">Bardcore Rock</a></li>
 						</ul>
 					</nav>
 
-				<!-- Main -->
+
+					<!-- Main -->
 					<div id="main">
-						<div class="inner">
-							<div>
-								<div style="display: inline-block;">
-									<h1 style="line-height: 0;">Bardcore Rock</h1>
-								</div>
-								<h2 style="line-height: 0;">2023</h2>
-							</div>
-							<div style="margin-bottom: 4%; padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1043998289?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="RainfallGameplay"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-							
-							
-							<!-- Background on how this game fits into my overall game development journey. -->
-							<h3>Background info</h3>
-							<p>Bardcore Rock was the product of a robotics module during university, it is comprised of two custom game controllers and a Unity game. I found this module really fun due to a fair bit of experience in robotics before attending university. I've always found robotics interesting and this module helped to show how it can be used within the context of game development. If there were more oppertunities for robotics in game development I would most likely have completed more projects in this area because of how much I enjoy working with electronics however as the industry stands at the moment there isn't a lot of work that joins robotics and game development.</p>
-							<!-- What the game actually is. -->
-							<h3>About the game</h3>
-							<p>Bardcore Rock is a infinite scroller game where the player traverses a dungeon moving side-to-side using the Dance Pad game controller to avoid the spikes on the floor. The player also has to fend of monster found while exploring by using the Keytar game controller to cast the corresponding colour spell to the monster in front of them. The game also features a distance counter in the top left of the screen to show how far along the dungeon they are, and to keep score between runs. The longer the player survives, the faster the player moves along, making it more difficult as they travel deeper into the dungeon.</p>
-							<!-- What skills/techniques did I cultivate and gain from this project. -->
-							<h3>Skills Gained</h3>
-							<p>While I had a decent amount of experience working with electronics, combining electronics and Unity was a new challenge. Instead of creating these game controllers from scratch, we were encouraged to re-use old electronics and turn them into our custom controllers, so Bardcore Rock, I used an old kids piano and Dance Dance Revolution game pad. I first had to take them apart to see how they worked, then removed some parts and added my own parts to get them to communicate to the two arduinos I used. From there, they then communicated to Unity through the serial busses and a plugin for Unity that allowed communication that way.</p>
-							<ul>
-								<li><b>Further Experience with Electronics</b></li>
-								<li><b>Communicating to Unity through Serial Busses</b></li>
-								<li><b>Creating Custom Game Controllers</b></li>
-								<li><b>Re-using Old Electronics</b></li>
-							</ul>
+					<div class="inner">
+
+						<div style="text-align: center;">
+							<h1 style="line-height: 0; text-align: center;">
+								Bardcore Rock
+							</h1>
 						</div>
+						<h2 style="line-height: 0; text-align: center;">2023</h2>
+
+						<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
+
+							<!-- Left Side: Text -->
+							<div style="flex: 2; min-width: 200px;">
+								
+
+								<h3 style="margin-bottom: 0%;">About the Project</h3>
+								<p>Barcore Rock is a project I created for a university module on Custom Game Controllers. I have always enjoyed working with electronics so for this project I created two separate controllers, a Keytar made from an Arduino and an old kids keyboard toy, and a Dance Game Pad that you can stand on which I took apart and also connected to an arduino to handle the inputs. The game itself is a very simple infinite runner where you can use the dance pad to swap between three horizontal lanes, and you can press keys on the Keytar to damage the enemies appreaching down the hallway.</p>
+
+								
+							</div>
+						
+							<!-- Right Side: Video or Image -->
+							<div style="flex: 3; min-width: 400px;">
+								<div style="margin-bottom: 4%; padding:56.25% 0 0 0;position:relative;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://player.vimeo.com/video/1043998289?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Bardcore Rock" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+							</div>
+						</div>
+						<h3 style="margin-bottom: 0%;">Key Contributions</h3>
+						<ul>
+						<li><b>Physcial Computing:</b> I used micro-controllers for input handling, and re-purposed old electronic toys to create two physical game controllers.</li>
+						<li><b>Custom Game Controllers:</b> I used a plugin in Unity to allow data transfer through the serial bus and translate that into inputs for a game.</li>
+						<li><b>Arduino C++:</b> I used C++ to code the Arduino's input handling and serial bus communication logic.</li>
+						</ul>
+
+						
+					</div>
 					</div>
 
+
+				
 				<!-- Footer -->
 				<footer id="footer">
 					<div class="inner">
